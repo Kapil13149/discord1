@@ -1,0 +1,124 @@
+@font-face {
+    font-family: ggsans-bold;
+    src: url("/fonts/gg-sans/gg sans Bold.ttf");
+  }
+
+.banner {
+    background-color: #404eed;
+    background-image: url("/images/Image0.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 81vh;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 32px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.btn1 {
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 60px;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+.btn1:hover {
+    background-color: #e5e5e5;
+    color: #6914d1;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    
+}
+
+.btndark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.banner-content {
+    padding-top: 10%;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-content h1 {
+    font-size: 62px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+.banner-content p {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.img1 {
+    position: absolute;
+    bottom: 0px;
+    right: -170px;
+}
+
+.img2 {
+    position: absolute;
+    left: -200px;
+    bottom: 0px;
+}
